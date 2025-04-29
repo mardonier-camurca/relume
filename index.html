@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LocaCasa - Aluguel por Temporada</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navegação -->
+  <nav>
+    <div><img class="logo" src="logo_rent.jpeg" alt=""></div>
+    <div>
+      <a href="#features">Recursos</a>
+      <a href="#faq">FAQ</a>
+      <a href="#cta">Reservar</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Alugue casas incríveis para suas férias</h1>
+    <p>Conforto, segurança e praticidade em um só lugar</p>
+  </section>
+
+  <!-- Galeria de Casas com Piscina -->
+<section class="galeria">
+    <h2 style="text-align:center;">Chalé dos Coqueiros em Paracuru</h2>
+    <div class="galeria-container">
+      <img src="image1.jpg" alt="Casa com piscina 1">
+      <img src="image2.jpg" alt="Casa com piscina 2">
+      <img src="imagem3.jpg" alt="Casa com piscina 3">
+    </div>
+  </section>
+  
+
+  <!-- Lista de Recursos -->
+  <section id="features" class="features">
+    <h2>Recursos do LocaCasa</h2>
+    <ul>
+      <li>Casas cuidadosamente selecionadas</li>
+      <li>Reservas 100% online e seguras</li>
+      <li>Localizações em pontos turísticos</li>
+      <li>Suporte 24h para viajantes e anfitriões</li>
+    </ul>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="faq">
+    <h2>Perguntas Frequentes</h2>
+    <ul>
+      <li><strong>Como reservo uma casa?</strong><br> Use a busca e clique em “Reservar” na página do imóvel.</li>
+      <li><strong>Há custos adicionais?</strong><br> Apenas taxa de serviço incluída no valor final.</li>
+      <li><strong>Como cancelar uma reserva?</strong><br> Acesse seu perfil e clique em “Cancelar Reserva”.</li>
+    </ul>
+  </section>
+
+  <!-- CTA -->
+  <section id="cta" class="cta">
+    <h2>Pronto para encontrar seu próximo destino?</h2>
+    <p>Reserve com segurança e tranquilidade pelo LocaCasa</p>
+    <button onclick="reserva()">Reservar Agora</button>
+  </section>
+
+  <script>
+    function reserva() {
+      alert('Você será redirecionado para a página de reservas!');
+      window.location.href = "https://www.booking.com/hotel/br/chale-dos-coqueiros-em-paracuru.pt-br.html";
+      
+    }
+  </script>
+
+</body>
+</html>
